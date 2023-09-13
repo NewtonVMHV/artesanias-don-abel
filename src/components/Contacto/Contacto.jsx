@@ -3,7 +3,7 @@ import champoton from "../../resources/Champoton.png"
 
 const Contacto = () => {
     return (
-        <section id="Contacto">
+        <section className="bg-white" id="Contacto">
             <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
                 <div className="max-w-screen-md mb-8 lg:mb-16">
                     <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Ofrecemos nuestros contactos para ordenar su pedido</h2>
@@ -13,7 +13,7 @@ const Contacto = () => {
             <br/>
             <br/>
             <div className="container px-6 md:px-12">
-                <div className="block rounded-lg bg-[hsla(0,0%,100%,0.8)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-[hsla(0,0%,5%,0.7)] dark:shadow-black/20 md:py-16 md:px-12 -mt-[100px] backdrop-blur-[30px]">
+                <div className="block rounded-lg">
                     <div className="flex flex-wrap">
                         <img src={champoton} className="rounded-lg" height="700" width="400"/>
                         <div className="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
