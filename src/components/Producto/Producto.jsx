@@ -12,8 +12,8 @@ const Producto = () => {
         <section className="bg-white" id="Productos">
             <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
                 <div className="max-w-screen-md mb-8 lg:mb-16">
-                    <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Tenemos los siguientes productos</h2>
-                    <p className="text-gray-500 sm:text-xl dark:text-gray-400">Nosotros presentamos las mejores artesanías con concha y caracol para nuestros clientes.</p>
+                    <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">Tenemos los siguientes productos</h2>
+                    <p className="text-gray-500 sm:text-xl">Nosotros presentamos las mejores artesanías con concha y caracol para nuestros clientes.</p>
                 </div>
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-4 justify-center">
                     <div>

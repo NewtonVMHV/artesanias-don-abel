@@ -6,8 +6,8 @@ const Contacto = () => {
         <section className="bg-white" id="Contacto">
             <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
                 <div className="max-w-screen-md mb-8 lg:mb-16">
-                    <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Ofrecemos nuestros contactos para ordenar su pedido</h2>
-                    <p className="text-gray-500 sm:text-xl dark:text-gray-400">También tienes la opción de cotizar y ordenar su orden para decoraciones de interiores o un evento (boda, XV años, bautizo o reunión).</p>
+                    <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">Ofrecemos nuestros contactos para ordenar su pedido</h2>
+                    <p className="text-gray-500 sm:text-xl">También tienes la opción de cotizar y ordenar su orden para decoraciones de interiores o un evento (boda, XV años, bautizo o reunión).</p>
                 </div>
             </div>
             <div className="container px-6 md:px-12">
@@ -26,10 +26,10 @@ const Contacto = () => {
                                             </div>
                                         </div>
                                         <div className="ml-6 grow">
-                                            <p className="mb-2 font-bold dark:text-white">
+                                            <p className="mb-2 font-bold">
                                                 Artesanías Don Abel
                                             </p>
-                                            <p className="text-neutral-500 dark:text-neutral-200">
+                                            <p className="text-neutral-500">
                                                 982 120 8957
                                             </p>
                                         </div>
