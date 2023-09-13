@@ -10,10 +10,8 @@ const Contacto = () => {
                     <p className="text-gray-500 sm:text-xl dark:text-gray-400">También tienes la opción de cotizar y ordenar su orden para decoraciones de interiores o un evento (boda, XV años, bautizo o reunión).</p>
                 </div>
             </div>
-            <br/>
-            <br/>
             <div className="container px-6 md:px-12">
-                <div className="block rounded-lg">
+                <div className="block rounded-lg bg-[hsla(0,0%,100%,0.8)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[30px]">
                     <div className="flex flex-wrap">
                         <img src={champoton} className="rounded-lg" height="700" width="400"/>
                         <div className="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
